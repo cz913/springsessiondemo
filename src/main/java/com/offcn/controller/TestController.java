@@ -23,4 +23,9 @@ public class TestController {
     public String getSession(HttpSession session){
         return (String)session.getAttribute("msg");
     }
+    @GetMapping("/user")
+    public void getUser(){
+        System.out.println("123456=========00996666666");
+    }
+
 }
